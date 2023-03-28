@@ -1,18 +1,18 @@
 package com.example.mytwitter
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var button_create_tweet: TextView
     private lateinit var adapter: MyAdapter
     private lateinit var tweetList: MutableList<String>
 
@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Find the button view in your layout
-        val button = findViewById<Button>(R.id.button_create_tweet)
+        findViewById<Button>(R.id.button_create_tweet)
+        findViewById<Button>(R.id.Profile_button)
 
         // Find the RecyclerView view in your layout
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
@@ -32,28 +33,26 @@ class MainActivity : AppCompatActivity() {
         adapter = MyAdapter(tweetList)
         recyclerView.adapter = adapter
 
-        // Find the tweet text TextView
-        button_create_tweet = findViewById(R.id.tweet_text_view)
 
-        // Set a click listener on the button
-        button.setOnClickListener {
-            // Get the text from the tweet text TextView
-            val tweetText = button_create_tweet.text.toString()
+        val Profile_button: Button = findViewById(R.id.Profile_button)
+        Profile_button.setOnClickListener {
+            val intent = Intent(this, myprofile::class.java)
+            startActivity(intent)
 
-            // Add the tweet text to the tweet list and notify the adapter of the change
-            tweetList.add(tweetText)
-            adapter.notifyDataSetChanged()
-
-            // Clear the tweet text TextView
-            button_create_tweet.text = ""
+            val button_create_tweet: Button = findViewById(R.id.button_create_tweet)
+            button_create_tweet.setOnClickListener {
+                val intent = Intent(this, CreateTweets::class.java)
+                startActivity(intent)
+            }
         }
     }
 
-    private class MyAdapter(private val data: List<String>) :
+    class MyAdapter(private val data: List<String>) :
         RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-            val view = LayoutInflater.from(parent.context).inflate(R.layout.activity_main, parent, false)
+            val view =
+                LayoutInflater.from(parent.context).inflate(R.layout.createatweet, parent, false)
             return MyViewHolder(view)
         }
 
@@ -66,16 +65,11 @@ class MainActivity : AppCompatActivity() {
 
         inner class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-            private val textView3: TextView = itemView.findViewById(R.id.textView3)
+            private val createTweets: TextView = itemView.findViewById(R.id.button_create_tweet)
 
             fun bind(tweetText: String) {
-                textView3.text = tweetText
+                createTweets.text = tweetText
             }
         }
-    }
-
-    private fun getData(): List<String> {
-        // This is just an example list of data to populate the RecyclerView
-        return listOf("Tweet 1", "Tweet 2", "Tweet 3")
     }
 }

@@ -15,14 +15,13 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.logininterface)
 
-        // Find the email and password EditText views
+        // Find the Username and Password EditText views
         editTextUsername = findViewById(R.id.editTextTextUsername)
         editTextTextPassword = findViewById(R.id.editTextTextPassword)
 
-        // Find the login button and set its click listener
+
         val loginButton: Button = findViewById(R.id.loginButton)
         loginButton.setOnClickListener {
-            // Navigate to the MainActivity when the login button is clicked
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }

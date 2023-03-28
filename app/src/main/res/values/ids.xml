@@ -4,4 +4,8 @@
     <item name="recyclerview" type="id" />
     <item name="tweet_text" type="id" />
     <item name="tweet_text_view" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="recyclerView1" type="id" />
+    <item name="tweet_item_text" type="id" />
+    <item name="tweet_item_text1" type="id" />
 </resources>
