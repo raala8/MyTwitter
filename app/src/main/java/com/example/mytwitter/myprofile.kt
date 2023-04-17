@@ -15,14 +15,12 @@ class myprofile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.myprofile)
 
-        findViewById<Button>(R.id.done_button)
-
         editTextTextNickname = findViewById(R.id.editTextTextNickname)
         editTextTextAbout_me = findViewById(R.id.editTextTextAbout_me)
 
-        val done_button: Button = findViewById(R.id.done_button)
-        done_button.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+        val button : Button = findViewById(R.id.done_button)
+        button.setOnClickListener {
+             val  intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
