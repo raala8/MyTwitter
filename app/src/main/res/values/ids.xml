@@ -8,4 +8,11 @@
     <item name="recyclerView1" type="id" />
     <item name="tweet_item_text" type="id" />
     <item name="tweet_item_text1" type="id" />
+    <item name="menu_notifications" type="id" />
+    <item name="menu_messages" type="id" />
+    <item name="menu_search" type="id" />
+    <item name="menu_home" type="id" />
+    <item name="tv_user_name" type="id" />
+    <item name="tv_user_screen_name" type="id" />
+    <item name="drawee_tweet_media" type="id" />
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/twitterBlue</item>
+        <item name="colorPrimaryDark">@color/colorWhitesmoke</item>
+        <item name="backgroundColor">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/twitterBlue</item>
+        <item name="inverseColor">@color/colorBlack</item>
+        <item name="inverseColorLite">@color/colorgGainsboro</item>
+        <item name="layout_bottom_line_only">@drawable/layout_bottom_line_only</item>
+        <item name="layout_top_bottom_borders_only">@drawable/layout_top_bottom_borders_only</item>
+    </style>
+</resources>

@@ -4,14 +4,31 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2855" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_bookmark.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_close.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_edit_tweet.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_homesparkles.xml" value="0.215" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2855" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_compose_tweet.xml" value="0.33" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_create_account.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_edit_tweet.xml" value="0.33" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_home.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_intro.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/activity_splash.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/createatweet.xml" value="0.2" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/itemlayout_tweet.xml" value="0.33" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/logininterface.xml" value="0.25" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/myprofile.xml" value="0.25" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/tweet_item.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/tweet_item_layout.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/layout/tweetlist.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/menu/bottom_nav_menu.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.215" />
+        <entry key="..\:/Users/rayan/AndroidStudioProjects/MyTwitter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.215" />
       </map>
     </option>
   </component>
